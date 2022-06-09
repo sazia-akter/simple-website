@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --shadow:  5px 10px 30px rgba(57, 56, 61, 0.205); 
+    --black:  rgb(8 14 40 / 96%);
+    --red:red;
+  
+   
+}
+*{
+    padding: 0%;
+    margin:0%;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    color: #07307a !important;
+    
+}
+.right{
+    margin-left: auto;
+}
+.navbar{
+    padding: 1rem 8%;
+    background-color: white;
+}
+.right a{
+    font-family: var(--roboto);
+    font-weight: 600;
+    
+}
+.right a:hover{
+    color: rgb(16, 10, 120) !important;
+}
+
+.fixed_nav{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    z-index: 999;
+    transition: background 1s ease; 
+    
+    
+}
+  
+  /* banner */
+  .banner{
+      margin-top:200px;
+  }
+    .hi{
+        font: normal 500 50px   'Roboto', sans-serif;
+        
+}
+  .fs{
+    font: normal 600 70px var(--roboto);
+  }
+  .button1{
+      border-radius: 5px;
+      background: linear-gradient(to right, #022569,#3263bc);
+      color: whitesmoke;
+      border-width: 2px;
+      padding: .8rem 2.2rem;
+      transition: all .6s linear;
+      font: normal 600  16px/20px var(--roboto);
+  }
+  .button1:hover{
+      background: white;
+      color:var(--black) ;
+       border: #022569 2px solid;
+      transition: all .6s linear;
+}
+
+  .button2{
+    padding: .8rem 2.2rem;
+    font: normal 600 16px/20px var(--roboto);
+    border-radius: 6px;
+    transition: all .6s linear;
+    border: #022569 2px solid;
+    
+}
+.button2:hover{
+    background: linear-gradient(to right, #022569,#3263bc);
+    color:whitesmoke ;
+    border: #022569 2px solid;
+    transition: all .6s linear;
+}
+
+/* introduction */
+
+.intro{
+    margin-top: 17rem;
+    margin-bottom: 5rem;
+}
+ /* branding */
+
+ .img_hover:hover{
+    box-shadow: 0px 11px 30px rgba(71,69,69,0.39);
+    
+     filter: brightness(0.15);
+     transition: all .3s;
+     transform: scale(1.1);
+     cursor: pointer;
+     
+ }
+ .img_hover{
+    transition: all .5s;
+}
+
+.experience {
+    display: block;
+    padding-left: 1rem;
+}
+.ten{
+    color: #2b61c4;
+    font-size:5rem ;
+    font-weight: 700;
+    padding-right:15px;
+}
+.dot{
+    position: absolute;
+    padding-right: 20%;
+    z-index: -1;
+}
+/* service */
+.card:hover{
+    box-shadow: 0px 11px 30px rgba(71,69,69,0.39);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.card{
+    transition: all .6s ease;
+}
+/* end service area */
+
+/* isotop */
+ 
+.item-menu ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+.item-menu ul li{
+    padding-right: 5%;
+    cursor: pointer;
+}
+.item-details{
+    width: 100%;
+}
+.item-details img{
+    width: 100%;
+}
+.item-details img:hover{
+    filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* About-area */
+.about-area{
+    padding: 1rem;
+}
+.client{
+    background: #ffffff10;
+    box-shadow: var(--shadow);
+    margin: 3rem 0rem;
+}
+.client-img{
+    padding: 2rem;
+}
+.about-client{
+    padding-top: 2rem;
+}
+  .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+/* Subscribe Area */
+.subscribe-area .subscribe{
+    background: url(./Images/subscribe-bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 10rem 0rem;
+    margin: 3rem auto;
+}
+
+.subscribe-title h4{
+    font: 700 32px/30px var(--roboto);
+    color: whitesmoke;
+}
+
+.subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+.input-text input{
+    background: transparent;
+    border: 1px solid whitesmoke;
+    padding: 1rem 1rem;
+    font: normal 500 17px/20px var(--roboto);
+}
+.input-text input::placeholder{
+    color:white;
+}
+.btn-submit button{
+    color: #000;
+    background: white;
+    padding: .7rem 2rem;
+}
+ 
+/* Footer Area */
+.footer-area{
+    padding: 5rem 0;
+    background: url('../Images/footer-bg.png') no-repeat;
+
+}
+.footer-menu h5{
+    font: normal 500 23px/30px var(--roboto);
+    padding: 1rem;
+}
+.footer-menu a>i{
+    font-size: 22px;
+    padding: 2rem;
+    color: #b1afaf;
+}
+.footer-menu a>i:hover{
+    color: inherit;
+}
